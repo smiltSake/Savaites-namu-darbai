@@ -1,0 +1,71 @@
+/* spalvos:
+9EB23B
+C7D36F 
+FCF9C6
+E0DECA
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fcf9c6;
+  font-family: Arial, Helvetica, sans-serif;
+
+  
+
+}
+
+h1 {
+  text-align: center;
+  color: #9eb23b;
+  text-decoration: solid;
+}
+
+
+div{
+  text-align:center;
+  color: #9eb23b;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 6px;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.text{
+  align-items:baseli
+}
