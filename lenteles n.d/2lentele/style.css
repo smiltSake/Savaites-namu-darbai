@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+body{
+    background: black;
+}
+table {
+    border-collapse: collapse;
+    border: 10px solid white;
+    margin: 50px auto;
+    width: 100%;
+    color: white;
+
+}
+
+th{
+    background: purple;
+    padding: 20px;
+    text-align: left;
+    font-family: Lato;
+    font-size: 30px;
+    border: 1px solid white;
+    font-weight: bold;
+
+}
+
+td,
+tr {
+    padding: 20px;
+    text-align: left;
+    font-family: Lato;
+    border: 1px solid white;
+    font-weight: bold;
+}
+
+tr:nth-of-type(even){
+background: rgb(234, 129, 234);
+}
+
+tr:nth-of-type(odd) {
+    background: rgb(225, 55, 146);
+    
+}
+
