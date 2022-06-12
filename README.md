@@ -1,1 +1,1 @@
-# pirma-uzduotis
+# pirmadienio n.d pirma uzduotis
